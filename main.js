@@ -53,9 +53,11 @@ setInterval(function(){
   let textInfoEl = document.getElementById('text-info');
 
   count++; //count = count + 1;
-  // 마지막 배열이면 처음으로
-
-
+  // 마지막 배열이면 처음으로(조건문 count 확인)
+  if(count >= textData.length) {
+    count = 0;
+  }
+  console.log(count)
   textInfoEl.innerHTML = textData[count];
   console.log(textData[count])
 }, 5000);
