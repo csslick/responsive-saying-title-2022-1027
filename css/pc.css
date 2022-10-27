@@ -1,0 +1,49 @@
+/* pc.css */
+body {
+  /* background: pink; */
+}
+
+.container {
+  max-width: 1440px;
+  outline: 2px solid red;
+  margin: 0 auto;
+  height: 100vh;
+  position: relative;
+}
+
+.info-group {
+  width: 50%;
+  outline: 1px solid #ddd;
+  height: 100%;
+  padding-left: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+#text-info {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+}
+
+#day {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.date-box-date {
+  font-weight: 700;
+  font-size: 173px;  
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-group .btn {
+  position: absolute;
+  right: 120px;
+  bottom: 120px;
+}
