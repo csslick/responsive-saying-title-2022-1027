@@ -1,5 +1,45 @@
 /* mobile.css */
 body {
-  background: lightblue;
+  /* background: lightblue; */
+  background-image: url('../images/title-m.jpg');
 }
 
+.container {
+  outline: 2px solid red;
+  height: 100vh;
+  position: relative;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.info-group {
+  outline: 1px solid #ddd;
+  height: 100%;
+}
+
+#text-info {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left;
+}
+
+#day {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.date-box-date {
+  font-weight: 700;
+  font-size: 90px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-group .btn {
+  margin: 0 auto;
+}
